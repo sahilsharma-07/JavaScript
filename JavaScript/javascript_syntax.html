@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 14</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <h1> JavaScript Syntax</h1>
+    <p>
+        JavaScript syntax is the set of rules,
+        how JavaScript programs are constructed.
+    </p>
+
+    <h4>
+        How to create variables:-</h4>
+       <p>
+        var x;<br>
+        let y;
+        <h4>How to use variables:-</h4>
+        <p>
+        x = 5;<br>
+        y = 6;<br>
+        let z = x + y;
+       </p>
+    <hr>
+    <h2>JavaScript Values.</h2>
+    <p>
+     The JavaScript syntax defines two types of values:-
+    <ol>
+     <li> Literals are the Fixed values.</li>
+     <li>Variables are the Variable values .</li>
+    </p>
+    <ol><h3><li>JavaScript Literals.</li></h3>
+    <ol><li><h4>JavaScript Numbers.</h4></li>
+    <p>Number can be written with or without decimals.</p>
+
+    <p id="p1"></p>
+
+    <script>
+    document.getElementById("p1").innerHTML = 10.70;
+    </script>
+
+    <h4><li>JavaScript Strings.</li></h4>
+    
+    <p>Strings can be written with double or single quotes.</p>
+    <p id="p2"></p>
+    <script>
+    document.getElementById("p2").innerHTML = 'John Doe';
+    </script>
+    </ol>
+    
+    <h3><li>JavaScript Variables</li></h3>
+
+    <p>In this example, x is defined as a variable.
+        Then, x is assigned the value of 6
+    </p>
+
+    <p id="p3"></p>
+
+    <script>
+        let x;
+        x=6;
+        document.getElementById("p3").innerHTML=x;
+    </script>
+    </ol>
+     <hr>    
+
+
+<h2>JavaScript Operators.</h2>
+
+<p>JavaScript uses arithmetic operators to compute values (just like algebra).</p>
+
+<p id="o1">ADD</p>
+<p id="o2">SUB</p>
+<p id="o3">MULTIPLY</p>
+<p id="o4">DIVIDE</p>
+<script>
+document.getElementById("o1").innerHTML = (5 + 6) * 10;
+</script>
+<script>
+document.getElementById("o2").innerHTML = (5 - 6) * 10;
+</script>
+<script>
+document.getElementById("o3").innerHTML = (5 * 6) * 10;
+</script>
+<script>
+document.getElementById("o4").innerHTML = (5 / 6) * 10;
+</script>
+<ol>
+<h3><li>Assignment Operator.</li></h3>
+</ol>
+
+<p>In JavaScript the (=) sign operator is used to assign values to variables.</p>
+
+<p id="p4"></p>
+
+<script>
+    let z, y;
+    z = 5;
+    y = 5;
+    document.getElementById("p4").innerHTML = z + y;   
+</script>
+
+<h2>JavaScript Expressions.</h2>
+<p>
+JavaScript Expressions is used to compute the given values.
+</p>
+
+<p id="p5"></p>
+<script>
+    document.getElementById("p5").innerHTML = 5 * 5;
+</script>
+
+    <p>
+        This JavaScript Expressions can also contain variable value.
+    </p>
+   <p id="p6"></p>
+    <script>
+     var p;
+     p = 5;
+     document.getElementById("p6").innerHTML= p * 10;
+     </script>
+
+    <p>Expressions compute to values.</p>
+
+    <p id="p7"></p>
+
+    <script>
+        document.getElementById("p7").innerHTML = "Sahil" + " "  + "Sharma";
+    </script>
+    <hr>
+
+    <h2>JavaScript Keywwords.</h2>
+    <p>
+        The JavaScript Keywords are used to identify 
+        actions to be performed.
+    </p>
+     <ol>
+        <h3><li>JavaScript 'let' Keyword</li></h3>
+        <p> The 'let' Keyword tells the browser to create variable.</p>
+         
+        <p id="p8"></p>
+
+        <script>
+            let r ,s ;
+            r = 5 + 5;
+            s = r * 10;
+            document.getElementById("p8").innerHTML = s; 
+        </script>
+
+        <h3><li>JavaScript 'var' Keyword.</li></h3>
+        <p> The 'var' Keyword also tells the browser to create variable.</p>
+        <p id="p9"></p>
+        <script>
+            let t ,o ;
+            t= 6 + 6;
+            o = t * 10;
+            document.getElementById("p9").innerHTML = o; 
+        </script>
+     </ol>
+
+<hr>
+</body>
+</html>
